@@ -12,9 +12,24 @@
 .text-center {
 	text-align: center;
 }
+.pull-left {
+	float: left;
+}
+.pull-right: {
+	float: right;
+}
 .img-responsive {
 	width: 100%;
 	margin: auto;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+.error {
+	color: #F00;
 }
 .container {
 	width: 1170px;
@@ -28,30 +43,19 @@ section {
 	margin-bottom: 25px;	
 }
 
+/*Navigation*/
+.nav-wrap {
+
+}
+nav ul li {
+	display: inline;
+}
 
 
-/* Grid stuff */
-.col-sm-3 {
-	width: 33.33333%;
-	float: left;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.col-sm-4 {
-	width: 25%;
-	float: left;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.col-sm-8 {
-	width: 65%;
-	float: left;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.col-sm-12 {
-	width: 100%;
-}
+
+
+
+
 
 .page-title {
 	padding-bottom: 10px;

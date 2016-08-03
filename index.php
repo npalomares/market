@@ -6,7 +6,10 @@
 <html lang="en">
 <head>
 	<title>Market</title>
+	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery-3.1.0.min.js"></script>
 	<script src="js/custom.js"></script>
 </head>
 <body class="home-page">
@@ -26,7 +29,7 @@
 	
 		<!-- Main Section of content - MEAT -->
 		<main class="main" role="main">
-			<div class="row clearfix">
+			<div class="container">
 				<section class="content col-sm-8">		
 					<h2 class="page-title">Intro</h2>
 					<p>dLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 

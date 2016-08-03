@@ -42,6 +42,18 @@
 	</div><!-- close row -->		
 </section>
 
+<script>
+	$(document).ready(function() {
+		//alert("hello world");
+		$('.login').click(function() {
+			$('.user-wrap').toggleClass('show');
+		});
+	});
+
+
+</script>
+
+
 <footer role="contentinfo">
 	<div class="container text-center">
 		<p>
